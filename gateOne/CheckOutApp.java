@@ -1,3 +1,4 @@
+import java.time.LocalDate;
 import java.util.Scanner;
 public class CheckOutApp{
 	public static void main(String...args){
@@ -9,10 +10,14 @@ public class CheckOutApp{
 		String item = "";
 		int quantity = 0;
 		int price = 0;
+		int discounts = 0;
 		int discount = 0;
+		float discountgiven ;
 
 		System.out.print("whats the customer's Names: ");
 		String customerName = input.nextLine();
+
+		LocalDate todaysDate = LocalDate.now();
 
 	do{
 		System.out.print("whats did the user buy? ");
@@ -23,24 +28,25 @@ public class CheckOutApp{
 
 		System.out.print("How much per Unit: ");
 		price = input.nextInt();
-		sum += price ;
+		sum = price * quantity ;
 		
 		System.out.print("How much discount will he got? ");
-		int discounts = input.nextInt();
-		discount = discounts / 100 * sum ;
+		discounts = input.nextInt();
+		discount = discounts / 100 * sum;
+		discountgiven = (float)discount;
 
-
-		System.out.println("Continue (yes/no)");
-		String attempt = input.nextLine();
+		System.out.println("Do you want to buy more? (yes/no)");
+		String attempt = input.next();
 		user = attempt.equalsIgnoreCase("yes");
 	}
+
 	while(user);
-		System.out.println("Thanks for your patronage!!!");
 
-		input.close();
-
+		
 		System.out.println("==============================================================");
-		System.out.printf("%s\n%s\n%s\n%s\n%s\n%s","SEMICOLON", "MAIN BRANCH", "LOCATION: 312, HERBERT MACAULEY WAY, SABO YABA, LAGOS.","TEL: 08102790000","Date: 5th of August 2024","Cashier: Cashier's Name");
+		System.out.printf("%s\n%s\n%s\n%s\n%s","SEMICOLON", "MAIN BRANCH", "LOCATION: 312, HERBERT MACAULEY WAY, SABO YABA, LAGOS.","TEL: 08102790000","Cashier: Cashier's Name");
+		System.out.println();
+		System.out.println("Date: " + todaysDate);
 		System.out.println("Customer Name: " + customerName );
 		System.out.println("==============================================================");
 	System.out.println("		ITEM	QTY	PRICE	TOTAL(NGN)");
@@ -48,7 +54,46 @@ public class CheckOutApp{
 	System.out.printf("		%4s%6d%9d%9d",item, quantity, price, sum);
 	System.out.println();
 	System.out.println("--------------------------------------------------------------");
-	System.out.printf("		%s%4d\n		%s%4d", "Sub Total:	", sum, "Discount:	", discount );
+	System.out.printf("		%s%4d\n		%s%4f", "Sub Total:	", sum, "Discount:	", discountgiven );
+	System.out.println();
+	System.out.println("==============================================================");
+	System.out.printf("		%4s%9d", "Bill Total",sum);
+	System.out.println();
+	System.out.println("==============================================================");
+	System.out.printf("%s%4d", "THIS IS NOT A RECEIPT KINDLY PAY:  ", sum );
+	System.out.println();
+	System.out.println("==============================================================");
+	System.out.printf("\n\n\n\n");
+
+	
+
+	System.out.print("How much did the user gave to you? ");
+	int paid = input.nextInt();
+	int amountPaid = paid - sum;
+
+
+	System.out.println("==============================================================");
+		System.out.printf("%s\n%s\n%s\n%s\n%s","SEMICOLON", "MAIN BRANCH", "LOCATION: 312, HERBERT MACAULEY WAY, SABO YABA, LAGOS.","TEL: 08102790000","Cashier: Cashier's Name");
+		System.out.println();
+		System.out.println("Date: " + todaysDate);
+		System.out.println("Customer Name: " + customerName );
+		System.out.println("==============================================================");
+	System.out.println("		ITEM	QTY	PRICE	TOTAL(NGN)");
+	System.out.println("--------------------------------------------------------------");
+	System.out.printf("		%4s%6d%9d%9d",item, quantity, price, sum);
+	System.out.println();
+	System.out.println("--------------------------------------------------------------");
+	System.out.printf("		%s%4d\n		%s%4f", "Sub Total:	", sum, "Discount:	", discountgiven );
+	System.out.println();
+	System.out.println("==============================================================");
+	System.out.printf("		%4s%9d\n		%4s%9d\n		%4s%9d", "Bill Total:", sum, "Amount Paid:", paid, "Balance:", amountPaid);
+	System.out.println();
+	System.out.println("==============================================================");
+	System.out.println("THANK YOU FOR YOUR PATRONAGE");
+	System.out.println("==============================================================");
+
+
+
 
 
 
