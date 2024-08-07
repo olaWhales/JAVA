@@ -1,77 +1,108 @@
 import java.util.Scanner;
 public class Mbti2{
-	public static void main(String [] args){
+	public static void main(String...args){
+		Scanner input = new Scanner(System.in);
 
-	Scanner input = new Scanner(System.in);
-	char inputChar = ' ';
-			while(true){
+	boolean yes = true ;
+			//while(true){
 
 	System.out.print("Enter your name: ");
 	String name = input.nextLine();
 
 	
-	System.out.println("A.expand energy,enjoy group.)		B.conserve energy, enjoy one on one)");
-	if(question1 == A )
+	System.out.println("(A) Expand energy,enjoy group.");
+		System.out.println("(B) Conserve energy, enjoy one on one");
 	String question1 = input.nextLine();
-	
+/*				
+	System.out.println("(A) Interpret literally.");
+		System.out.println("(B) Look for meaning and possibility");
+	String question2 = input.next();
 
-	System.out.println("A.interpret literally.		B.look for meaning and possibility");
-	String question2 = input.nextLine();
+	System.out.println("(A) logical,thinking,questionaing.");
+		System.out.println("(B) Empathetic,feeling,accomodation");
+	String question3 = input.next();
 
-	System.out.println("A.logical,thinking,questionaing.		B.empathetic,feeling,accomodation");
-	String question3 = input.nextLine();
+	System.out.println("(A) Organization,orderly.");
+		System.out.println("(B) Flexible,adaptaion");
+	String question4 = input.next();
 
-	System.out.println("A.organization,orderly.		B.flexible,adaptaion");
-	String question4 = input.nextLine();
+	System.out.println("(A) More ongoing,think out loud.");
+		System.out.println("(B) More reserve,think to yourself");
+	String question5 = input.next();
 
-	System.out.println("A.more ongoing,think out loud.		B.more reserve,think to yourself");
-	String question5 = input.nextLine();
+	System.out.println("(A) Practical,realistic,experiential.");
+		System.out.println("(B) Imagination,innovation,theoretical");
+	String question6 = input.next();
 
-	System.out.println("A.practical,realistic,experiential.		B.imagination,innovation,theoretical");
-	String question6 = input.nextLine();
+	System.out.println("(A) Candid,straigh forward.");
+		System.out.println("(B) Tactful kind,encouraging");
+	String question7 = input.next();
 
-	System.out.println("A.candid,straigh forward.		B.tactful kind,encouraging");
-	String question7 = input.nextLine();
+	System.out.println("(A) Schedule,plan.");
+		System.out.println("(B) Unplanned,spontaneous");
+	String question8 = input.next();
 
-	System.out.println("A.schedule,plan.		B.unplanned,spontaneous");
-	String question8 = input.nextLine();
+	System.out.println("(A) Seek many task,public activity,interraction with other.");
+		System.out.println("(B) Seek private,acrivity with quiet to concentrate");
+	String question9 = input.next();
 
-	System.out.println("A.seek many task,public activity,interraction with other.		B.seek private,acrivity with quiet to concentrate");
-	String question9 = input.nextLine();
+	System.out.println("(A) Standard,ussual,conventional.");
+		System.out.println("(B) Different,novel,unique");
+	String question10 = input.next();
 
-	System.out.println("A.standard,ussual,conventional.		B.different,novel,unique");
-	String question10 = input.nextLine();
+	System.out.println("(A) Firm,tend to critisize,hold the line.");
+		System.out.println("(B) Gentle,tent to appreciate,conciliate");
+	String question11 = input.next();
 
-	System.out.println("A.firm,tend to critisize,hold the line.		B.gentle,tent to appreciate,conciliate");
-	String question11 = input.nextLine();
+	System.out.println("(A) Regulated,structured.");
+		System.out.println("(B) Easy going,live and let live");
+	String question12 = input.next();
 
-	System.out.println("A.regulated,structured.		B.easy going,live and let live");
-	String question12 = input.nextLine();
+	System.out.println("(A) External,communicative,express yourself.");
+		System.out.println("(B) Internal,reticent,keep to yourself");
+	String question13 = input.next();
 
-	System.out.println("A.external,communicative,express yourself.		B.internal,reticent,keep to yourself");
-	String question13 = input.nextLine();
+	System.out.println("(A) Interpret literally.");
+		System.out.println("(B) Look for meaning and possibility");
+	String question14 = input.next();
 
-	System.out.println("A.interpret literally.		B.look for meaning and possibility");
-	String question14 = input.nextLine();
+	System.out.println("(A) Tough minded,just.");
+		System.out.println("(B)tender hearted,merciful.");
+	String question15 = input.next();
 
-	System.out.println("A.tough minded,just.		B.tender hearted,merciful.");
-	String question15 = input.nextLine();
+	System.out.println("(A) Preparation,plan ahead.");
+		System.out.println("(B) Go with the flow,adapt as you go");
+	String question16 = input.next();
 
-	System.out.println("A.preparation,plan ahead.		B.go with the flow,adapt as you go");
-	String question16 = input.nextLine();
+	System.out.println("(A) Active,initiate");
+		System.out.println("(B) Reflection,deliberate");
+	String question17 = input.next();
 
-	System.out.println("A.active,initiate.		B.reflection,deliberate");
-	String question17 = input.nextLine();
+	System.out.println("(A) Fact,thing,what is.");
+		System.out.println("(B) Ideas,dreams,what could be,philosophical");
+	String question18 = input.next();
 
-	System.out.println("A.fact,thing,what is.		B.ideas,dreams,what could be,philosophical");
-	String question18 = input.nextLine();
+	System.out.println("(A) Matter of fact,issue-orieted.");
+		System.out.println("(B) Sensitive,people-oriented,compassionate");
+	String question19 = input.next();
 
-	System.out.println("A.matter of fact,issue-orieted.		B.sensitive,people-oriented,compassionate");
-	String question19 = input.nextLine();
+	System.out.println("(A) Control,govern.");
+		System.out.println("(B) Latitude,freedom");
+	String question20 = input.next();
+**/
+	if(question1 == "A" )System.out.print("Expand energy,enjoy group");
+	//else if(question2 == "B" )System.out.print("Conserve energy, enjoy one on one");
+	else System.out.print("Enter valid input");
 
-	System.out.println("A.control,govern.		B.latitude,freedom");
-	String question20 = input.nextLine();
-}
+		
+		
+			
+
+//System.out.print("Do you want to re attempt it press (yes) or (no) to see your result");
+//		String asking = input.next();
+//		String user = equalsIgnoreCase(yes);
+//	}
+
 
 }
 
