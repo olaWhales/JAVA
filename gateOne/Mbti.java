@@ -41,7 +41,6 @@ public class Mbti{
 				else if(userRespond[index] == B) question1 = userRespond[index];				
 					return question1 ;
 			}
-
 	}
 
 /*
