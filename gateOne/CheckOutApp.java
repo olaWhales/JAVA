@@ -18,10 +18,9 @@ public class CheckOutApp{
 		String customerName = input.nextLine();
 
 		LocalDate todaysDate = LocalDate.now();
-
-	do{
 		System.out.print("whats did the user buy? ");
 		item = input.nextLine();
+	do{
 
 		System.out.print("How many pieces? ");
 		quantity = input.nextInt();
@@ -30,10 +29,10 @@ public class CheckOutApp{
 		price = input.nextInt();
 		sum = price * quantity ;
 		
-		System.out.print("How much discount will he got? ");
-		discounts = input.nextInt();
-		discount = discounts / 100 * sum;
-		discountgiven = (float)discount;
+		//System.out.print("How much discount will he got? ");
+		//discounts = input.nextInt();
+		//discount = discounts / 100 * sum;
+		//discountgiven = (float)discount;
 
 		System.out.println("Do you want to buy more? (yes/no)");
 		String attempt = input.next();
@@ -54,8 +53,8 @@ public class CheckOutApp{
 	System.out.printf("		%4s%6d%9d%9d",item, quantity, price, sum);
 	System.out.println();
 	System.out.println("--------------------------------------------------------------");
-	System.out.printf("		%s%4d\n		%s%4f", "Sub Total:	", sum, "Discount:	", discountgiven );
-	System.out.println();
+	//System.out.printf("		%s%4d\n		%s%4f", "Sub Total:	", sum, "Discount:	", discountgiven );
+	//System.out.println();
 	System.out.println("==============================================================");
 	System.out.printf("		%4s%9d", "Bill Total",sum);
 	System.out.println();
@@ -83,8 +82,8 @@ public class CheckOutApp{
 	System.out.printf("		%4s%6d%9d%9d",item, quantity, price, sum);
 	System.out.println();
 	System.out.println("--------------------------------------------------------------");
-	System.out.printf("		%s%4d\n		%s%4f", "Sub Total:	", sum, "Discount:	", discountgiven );
-	System.out.println();
+	//System.out.printf("		%s%4d\n		%s%4f", "Sub Total:	", sum, "Discount:	", discountgiven );
+	//System.out.println();
 	System.out.println("==============================================================");
 	System.out.printf("		%4s%9d\n		%4s%9d\n		%4s%9d", "Bill Total:", sum, "Amount Paid:", paid, "Balance:", amountPaid);
 	System.out.println();
