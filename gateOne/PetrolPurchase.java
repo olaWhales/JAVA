@@ -1,45 +1,37 @@
 public class PetrolPurchase{
-	private String petrol ;
-	private String quantity ;
-	private int purchase ;
+	private String petrolLocation ;  
+	private String petrolType ;
+	private int quantity ;
 	private Double price ;
 	private Double discount ;
 
-	public PetrolPurchase (String petrol, String quantity, int purchase, Double price , Double discount){
-	this.petrol = petrol ;
-	this.quantity = quantity ;
-	this.purchase = purchase ;
+	public PetrolPurchase (String petrolLocation, String petrolType, int quantity, Double price , Double discount){
+	this.petrolLocation = petrolLocation ;
+	this.petrolType = petrolType ;
 	this.price = price ;
-	this.discount = discount ;	
-	}
-		public void setPrice(double price, int purchase){
-			if(price == 50){
-				purchase = 5;
-				price++ ;
-		  	}
-		   	else if(price < 5){
-			System.out.print("Enter a valid thins");
-			}
-		}
-		public void setPuchase(int purchase){ 
-			if(purchase == 5 || purchase > 5){
-				purchase++ ;
-			}else{
-			System.out.print("The petrol start from 5L ");		
-			}
-		}	
-		public void setDiscount(Double discount, int purchase, Double price){
-			discount = 0.2 - (purchase * price) ; 
-		}
+	this.quantity = quantity ;	
+	this.discount = discount ;
 
-			public String buyPetrol(String quantity, int purchase, Double price)(){
-				return petrol;
+	}
+		public void setPetrolLocation(){
+		}
+		public void setPetrolType(){
+		}
+		public void setQuantity(){	
+		}
+		public void setPrice(double price){
+		}
+		public void setDiscount(String quantity, double price, double discount){
+			discount = 0.05 ;	
+		}
+			public String getPetrolLocation(){
+				return petrolLocation;
 			}
-			public String getQuantity(){
+			public String getPetrolType(){
+				return petrolType ;
+			}
+			public int getQuantity(){
 				return quantity ;
-			}
-			public int getPurchase(){
-				return purchase ;
 			}
 			public Double getPrice(){
 				return price ;
@@ -53,6 +45,11 @@ public class PetrolPurchase{
 					kindly switch off your phone and 
 					dont play mad. 
 				""");
+			}
+		public static double discountCalculation(discount){
+			double amount = price * quantity ;
+			double totalDiscountCal = amount * discount ;
+			double return = amount - totalDiscountCal ;
+			return discount ;
 		}
-
 }

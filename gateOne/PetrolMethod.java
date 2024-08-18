@@ -1,34 +1,34 @@
 import java.util.Scanner;
-import java.util.ArrayList;
 public class PetrolMethod{
-
-	
-		purchase * amount - discount;		
-
-		PetrolPurchase.buyPetrol(purchase, amount, discount);
-		return purchase;
-
+public static void main(String []args){
+Scanner input = new Scanner(System.in);
 		
-	}
+	System.out.print("Location... ");
+	String Location = input.nextLine();
 
-	public static ArrayList<PetrolPurchase> viewAllPurchase(){
-		return petrolPurchase;
-	}
+	System.out.print("which kind of PETROL would you like to purchase? ");
+	String type = input.nextLine();
 	
-	public static void main(String...args){
-	static Scanner input = new Scanner(System.in);
-	static ArrayList<PetrolPurchase>petrol = new ArrayList<>();
-
-	System.out.print("Welcome to @whales petroleum spot");
-
-	System.out.print("how many litre would you like to buy ?");
-	int purchase = input.nextInt();
-		
-	System.out.print("how much are you paying ");
-	double amount = input.nextDouble();
-
-	System.out.print(purchase);
-	System.out.print(petrolPurchase);
+	System.out.print("How many litres? ");
+	int quantity = input.nextInt();
 	
-	}	
+	System.out.print("How much? ");
+	double price = input.nextDouble();
+
+	System.out.print("How many discount? ");
+	double discount = input.nextDouble();
+
+
+
+	PetrolPurchase petrol = new PetrolPurchase("petrolLocation", "type", quantity, price, discount);
+	System.out.print(petrol.getPetrolLocation());
+	System.out.print(petrol.getPetrolType());
+	System.out.print(petrol.getQuantity());
+	System.out.println(petrol.getPrice());
+	System.out.print(petrol.discount.DiscountCalculation());
+
+
+
+
+	}
 }
