@@ -9,23 +9,13 @@ public class PetrolPurchase{
 	this.petrolLocation = petrolLocation ;
 	this.petrolType = petrolType ;
 	this.price = price ;
-	this.quantity = quantity ;	
+	this.quantity = quantity ;
+	this.discount = 0.05 ;
 	this.discount = discount ;
 
 	}
-		public void setPetrolLocation(){
-		}
-		public void setPetrolType(){
-		}
-		public void setQuantity(){	
-		}
-		public void setPrice(double price){
-		}
-		public void setDiscount(String quantity, double price, double discount){
-			discount = 0.05 ;	
-		}
 			public String getPetrolLocation(){
-				return petrolLocation;
+			return petrolLocation;
 			}
 			public String getPetrolType(){
 				return petrolType ;
@@ -46,10 +36,10 @@ public class PetrolPurchase{
 					dont play mad. 
 				""");
 			}
-		public static double discountCalculation(discount){
+		public double discountCalculation(){
 			double amount = price * quantity ;
-			double totalDiscountCal = amount * discount ;
-			double return = amount - totalDiscountCal ;
-			return discount ;
+			double totalDiscountCal = amount * (discount  * 0.01);
+			double result = amount - totalDiscountCal ;
+			return result;
 		}
 }
