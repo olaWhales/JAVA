@@ -3,15 +3,17 @@ import org.junit.jupiter.api.Test;
 public class CarTest{
 
 
-	public testForCarPriceDiscount(){
-
-	@Test;
-	//given
-	Car car = new Car();
-	//when
-	double result = car.calculateFirstCarDiscount(2000);
-	//assert
-	assertEquals(result, 1900);
+	@Test
+	public void testForCarPriceDiscount(){
+ 	Car car = new Car("bmw","2020",2000.00);
+	double result = car.calculateFirstCarDiscount();
+	assertEquals(result, 1900.00);
+}
+	@Test
+	public void testForSecondPriceCarDiscount(){
+ 	Car car = new Car("bmw","2020",2000.00);
+	double result = car.calculateSecondCarDiscount();
+	assertEquals(result, 1860.00);
 }
 
 }
