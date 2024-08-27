@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class AccountMainMethod{
+	public static void main(String...args){
+		Scanner iinput = new Scanner(System.in);
+
+		AccountPractice myAccount = new AccountPractice();
+
+		
+
+	}
+}
