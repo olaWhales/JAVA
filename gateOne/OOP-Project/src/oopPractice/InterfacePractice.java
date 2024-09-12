@@ -1,0 +1,5 @@
+package oopPractice;
+
+interface  interfacePractice {
+
+}

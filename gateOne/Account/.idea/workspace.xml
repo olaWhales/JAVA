@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a5a7e9d9-aa16-466c-a091-cce4e64e52ce" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Aircondition/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aircondition/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aircondition/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aircondition/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aircondition/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aircondition/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aircondition/Aircondition.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aircondition/lib/apiguardian-api-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aircondition/lib/hamcrest-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aircondition/lib/junit-4.13.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aircondition/lib/junit-jupiter-5.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aircondition/lib/junit-jupiter-api-5.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aircondition/lib/junit-jupiter-engine-5.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aircondition/lib/junit-jupiter-params-5.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aircondition/lib/junit-platform-commons-1.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aircondition/lib/junit-platform-engine-1.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aircondition/lib/opentest4j-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aircondition/src/aircondition/Ac.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Aircondition/test/aircondition/AcTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2l0y2ulGLV0utiPnodfxhqOOPzW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.AccountTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AccountTest.testAccountCanCheckBalance.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AccountTest.testAccountCanDeposit.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AccountTest.testAccountCanWithdraw.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AccountTest.testAccountExist.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AccountTest.testIfAccountPinIsCorrect.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AccountTest.testThatAccountCanDeposit_2k.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AccountTest.testThatAccountCanWithdraw_2k.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AccountTest.testThatAccountCannotAcceptNegativeAmount.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AccountTest.testThatAccountCannotWithdrawMoreThanBalance.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AccountTest.testThatAccountCannotWithdrawWithDifferencePin.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AccountTest.testThatValidatePin.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AccountTest.testingForBalanceifDeposit1k.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AccountTest.testingForbalanceIfItsTrulyZero.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AccountTest.testingIfAccountCanAddMoney.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AccountTest.testingIfAccountCanWithDiffrencePin.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AccountTest.testingIfAccountCanWithdraw1KWithBalanceOf1k.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AccountTest.testingIfAccountCanWithdraw5kwhilehaving2k.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AccountTest.testingIfAccountCanWithdrawMoney.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AccountTest.tetsingIfAccountCanWithdraw10kWhileBalanceIs2k.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in Account.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Bank.testIfBankCanCreateAccount.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BankTest,testIfBankCanWithdraw and 1 more.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BankTest.TestThatAccountCanTransfer.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BankTest.TestThatAccountCanTransferw.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BankTest.TestThatAccountPinCanBeChangeInBank.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BankTest.TestThatBankCanTransferFromOneAccountToOthers.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BankTest.TestThatBankCannotWithdrawWithDifferencePin.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BankTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BankTest.testBankToMakeDeposit.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BankTest.testIfAccountCanDeposit.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BankTest.testIfAccountCanWithdraw.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BankTest.testIfAcountRegisterForCustomer.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BankTest.testIfBankCanCheckBalance.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BankTest.testIfBankCanCreateAccount.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BankTest.testIfBankCanDeposit.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BankTest.testIfBankCanDepositNegativeAmount.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BankTest.testIfBankCanDepositwithdifferencePin.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.BankTest.testIfBankCanNotwithdifferencePin.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BankTest.testIfBankCanTransfer.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BankTest.testIfBankCanWithdraw.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BankTest.testIfBankExist (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BankTest.testIfBankExist.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BankTest.testThatAccountCanBeCreated.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BankTest.testThatAccountCanBeCreatedInTheBank.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BankTest.testThatAccountCanDepositMoney.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BankTest.testThatAccountCanDepositMoneyInTheBank.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BankTest.testThatAccountCanWithdraw.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BankTest.testThatAccountCannotDepositNegativeAmountInTheBank.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BankTest.testThatAccountCannotWithdrawMoreThanBalance.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BankTest.testToGetSizeOfAccountCreated.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BankTest.testifAccountCanRegisterForCustomer.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL USER/Desktop/Miss-jenny/gateOne/Account&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/DELL USER/IdeaProjects/Account/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="account" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL USER\Desktop\Miss-jenny\gateOne\Account\src\account" />
+      <recent name="C:\Users\DELL USER\IdeaProjects\Account\test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL USER\Desktop\Miss-jenny\gateOne\Account\src\account" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="account" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ClassAssessment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Account.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Account.TestAccount" />
+      <option name="MAIN_CLASS_NAME" value="Account.TestAccount.AccountTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="Account" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Account.TestAccount.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Account.TestAccount" />
+      <option name="MAIN_CLASS_NAME" value="Account.TestAccount.BankTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankTest.testIfBankCanDepositNegativeAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ClassAssessment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Account.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Account.TestAccount" />
+      <option name="MAIN_CLASS_NAME" value="Account.TestAccount.BankTest" />
+      <option name="METHOD_NAME" value="testIfBankCanDepositNegativeAmount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankTest.testIfBankCanDepositwithdifferencePin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ClassAssessment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Account.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Account.TestAccount" />
+      <option name="MAIN_CLASS_NAME" value="Account.TestAccount.BankTest" />
+      <option name="METHOD_NAME" value="testIfBankCanDepositwithdifferencePin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankTest.testIfBankCanNotwithdifferencePin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ClassAssessment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Account.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Account.TestAccount" />
+      <option name="MAIN_CLASS_NAME" value="Account.TestAccount.BankTest" />
+      <option name="METHOD_NAME" value="testIfBankCanNotwithdifferencePin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BankTest.testIfBankCanNotwithdifferencePin" />
+        <item itemvalue="JUnit.BankTest" />
+        <item itemvalue="JUnit.AccountTest" />
+        <item itemvalue="JUnit.BankTest.testIfBankCanDepositNegativeAmount" />
+        <item itemvalue="JUnit.BankTest.testIfBankCanDepositwithdifferencePin" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.387" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.387" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5a7e9d9-aa16-466c-a091-cce4e64e52ce" name="Changes" comment="" />
+      <created>1724331092579</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724331092579</updated>
+      <workItem from="1724331093697" duration="16111000" />
+      <workItem from="1724592872827" duration="3761000" />
+      <workItem from="1724695684459" duration="16113000" />
+      <workItem from="1724779996257" duration="19717000" />
+      <workItem from="1724834201762" duration="51771000" />
+      <workItem from="1725276157893" duration="13416000" />
+      <workItem from="1725416758360" duration="14739000" />
+      <workItem from="1725542235408" duration="13402000" />
+      <workItem from="1725615882299" duration="23657000" />
+      <workItem from="1725865227649" duration="282000" />
+      <workItem from="1725999795776" duration="215000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
