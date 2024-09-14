@@ -4,32 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf1f4b3f-be1a-4ec0-954b-a8e1341e2bd5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Enum.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AccountProject/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AccountProject/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AccountProject/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AccountProject/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AccountProject/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AccountProject/AccountProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AccountProject/test/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aircondition/lib/apiguardian-api-1.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aircondition/lib/hamcrest-core-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aircondition/lib/junit-4.13.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aircondition/lib/junit-jupiter-5.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aircondition/lib/junit-jupiter-api-5.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aircondition/lib/junit-jupiter-engine-5.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aircondition/lib/junit-jupiter-params-5.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aircondition/lib/junit-platform-commons-1.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aircondition/lib/junit-platform-engine-1.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aircondition/lib/opentest4j-1.2.0.jar" afterDir="false" />
-    </list>
+    <list default="true" id="bf1f4b3f-be1a-4ec0-954b-a8e1341e2bd5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -54,38 +29,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.main.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;JUnit.EnumTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EnumTest.testIfEnumExists.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EstoreTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UMLTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UMLTest.testIfAdminExists.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UMLTest.testIfCustomerExists.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UMLTest.testIfEnumExists.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UMLTest.testIfSellerExisst.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserTest.testIfuserExists.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.testPractice.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.testPractice.testPractice.executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL USER/Desktop/Miss-jenny/gateOne/Enum/src&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/DELL USER/Desktop/Miss-jenny/gateOne/Enum/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.EnumTest.executor": "Run",
+    "JUnit.EnumTest.testIfEnumExists.executor": "Run",
+    "JUnit.EstoreTest.executor": "Run",
+    "JUnit.UMLTest.executor": "Run",
+    "JUnit.UMLTest.testIfAdminExists.executor": "Run",
+    "JUnit.UMLTest.testIfCustomerExists.executor": "Run",
+    "JUnit.UMLTest.testIfEnumExists.executor": "Run",
+    "JUnit.UMLTest.testIfSellerExisst.executor": "Run",
+    "JUnit.UserTest.testIfuserExists.executor": "Run",
+    "JUnit.testPractice.executor": "Run",
+    "JUnit.testPractice.testPractice.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/DELL USER/Desktop/Miss-jenny/gateOne/Enum/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/DELL USER/Desktop/Miss-jenny/gateOne/Enum/src/Main.java",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="EnumProject" />
@@ -95,7 +71,7 @@
       <recent name="C:\Users\DELL USER\Desktop\Miss-jenny\gateOne\Enum\src\EnumProject" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.main">
+  <component name="RunManager">
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EnumProject.main" />
       <module name="Enum" />
@@ -171,21 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.main" />
-        <item itemvalue="JUnit.testPractice.testPractice" />
-        <item itemvalue="JUnit.testPractice" />
-        <item itemvalue="JUnit.UserTest.testIfuserExists" />
-        <item itemvalue="JUnit.EstoreTest" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.387" />
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.387" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-PY-242.20224.347" />
+        <option value="bundled-python-sdk-c2d6afa66fbe-39cff9de6eef-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.20224.347" />
       </set>
     </attachedChunks>
   </component>
@@ -205,21 +172,11 @@
       <workItem from="1725865169723" duration="26000" />
       <workItem from="1725865526596" duration="795000" />
       <workItem from="1725867432646" duration="19000" />
+      <workItem from="1726134687884" duration="1129000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/EnumProject/main.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
