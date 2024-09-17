@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class weightInpound{
-	public static void main( String [] args){
+	public static void main( String ... args){
 	 	Scanner input = new Scanner(System.in);
 
 		System.out.print("Enter your weight in kilogram: ");
