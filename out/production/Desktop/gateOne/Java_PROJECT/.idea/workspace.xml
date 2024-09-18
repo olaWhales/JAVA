@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="10bf3fdf-94df-4412-b0cc-e530b5206d7f" name="Changes" comment="updates">
+      <change beforePath="$PROJECT_DIR$/../Enum/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Enum/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enum/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Enum/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enum/src/AccountProject/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enum/src/AccountProject/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enum/src/AccountProject/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enum/src/AccountProject/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enum/src/AccountProject/AccountProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enum/src/AccountProject/test/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enum/src/Aircondition/lib/apiguardian-api-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enum/src/Aircondition/lib/hamcrest-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enum/src/Aircondition/lib/junit-4.13.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enum/src/Aircondition/lib/junit-jupiter-5.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enum/src/Aircondition/lib/junit-jupiter-api-5.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enum/src/Aircondition/lib/junit-jupiter-engine-5.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enum/src/Aircondition/lib/junit-jupiter-params-5.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enum/src/Aircondition/lib/junit-platform-commons-1.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enum/src/Aircondition/lib/junit-platform-engine-1.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enum/src/Aircondition/lib/opentest4j-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enum/src/EnumProject/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enum/src/EnumProject/BillingInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enum/src/EnumProject/CardType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enum/src/EnumProject/CreditCardInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enum/src/EnumProject/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enum/src/EnumProject/Estore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enum/src/EnumProject/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enum/src/EnumProject/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enum/src/EnumProject/ProductCategory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enum/src/EnumProject/ShoppingCart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Enum/src/EnumProject/main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="OpenRewrite Recipe" />
+        <option value="module-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2lp9v4s72ER4zUDzVFUF1mpDdAC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.GeoPoliticalMainMethod.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.SalaryEmployee.executor": "Run",
+    "Application.WorkerMainMethod.executor": "Run",
+    "Application.main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.AccountTest.executor": "Run",
+    "JUnit.GeoPoliticalTest.testGeoPolitical.executor": "Run",
+    "JUnit.SmartKitchen.executor": "Run",
+    "JUnit.SmartKitchen.test.executor": "Run",
+    "JUnit.StackTest.executor": "Run",
+    "JUnit.StackTest.testIfStackAvailable.executor": "Run",
+    "JUnit.StackTest.testIfStackCanPopElement.executor": "Run",
+    "JUnit.StackTest.testIfStackCanTakeElement.executor": "Run",
+    "JUnit.StackTest.testIfStackCanTakeInElement.executor": "Run",
+    "JUnit.StackTest.testIfStackElementCanReduce.executor": "Run",
+    "JUnit.StackTest.testIfStackIsEmpty.executor": "Run",
+    "JUnit.StackTest.testIfStackIsFull.executor": "Run",
+    "JUnit.StackTest.testIfStackIsTrulyFullWithElement.executor": "Run",
+    "JUnit.SuveyTest.executor": "Run",
+    "JUnit.SuveyTest.tesTtHAT.executor": "Debug",
+    "JUnit.SuveyTest.testIfPolingClassExist.executor": "Run",
+    "JUnit.SuveyTest.testThatPollingApplicationHasFiveByTenTableForStoringPolingIssuesResponses.executor": "Run",
+    "JUnit.SuveyTest.test_If_Problem_Applications_Has_Five_Issues.executor": "Run",
+    "JUnit.SuveyTest.test_If_Problem_Applications_Has_Four_Issues.executor": "Run",
+    "Repository.Attach.Annotations": "true",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/DELL USER/Desktop/Miss-jenny/gateOne/Java_PROJECT/src/Main.java",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="SmartKitchen" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL USER\Desktop\Miss-jenny\gateOne\Java_PROJECT\src" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="SmartKitchen" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="WorkerClass" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.WorkerMainMethod">
+    <configuration name="GeoPoliticalMainMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GeoPolitical.GeoPoliticalMainMethod" />
+      <module name="Java_PROJECT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GeoPolitical.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SalaryEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
+      <option name="MAIN_CLASS_NAME" value="SalaryEmployee" />
+      <module name="Java_PROJECT" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorkerMainMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WorkerClass.WorkerMainMethod" />
+      <module name="Java_PROJECT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WorkerClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GeoPoliticalTest.testGeoPolitical" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_PROJECT" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GeoPoliticalTest" />
+      <option name="METHOD_NAME" value="testGeoPolitical" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackTest.testIfStackElementCanReduce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_PROJECT" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StackTest" />
+      <option name="METHOD_NAME" value="testIfStackElementCanReduce" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WorkerMainMethod" />
+        <item itemvalue="Application.SalaryEmployee" />
+        <item itemvalue="Application.GeoPoliticalMainMethod" />
+        <item itemvalue="JUnit.GeoPoliticalTest.testGeoPolitical" />
+        <item itemvalue="JUnit.StackTest.testIfStackElementCanReduce" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.387" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.387" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="10bf3fdf-94df-4412-b0cc-e530b5206d7f" name="Changes" comment="" />
+      <created>1725866384670</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725866384670</updated>
+      <workItem from="1725866385792" duration="843000" />
+      <workItem from="1725867454078" duration="1325000" />
+      <workItem from="1725938085453" duration="9432000" />
+      <workItem from="1725975301752" duration="12328000" />
+      <workItem from="1725990353505" duration="6004000" />
+      <workItem from="1726000113419" duration="720000" />
+      <workItem from="1726000870541" duration="1479000" />
+      <workItem from="1726036982043" duration="1968000" />
+      <workItem from="1726059028253" duration="33315000" />
+      <workItem from="1726183706039" duration="11529000" />
+      <workItem from="1726209125905" duration="15064000" />
+    </task>
+    <task id="LOCAL-00001" summary="updates">
+      <option name="closed" value="true" />
+      <created>1725991557783</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725991557783</updated>
+    </task>
+    <task id="LOCAL-00002" summary="updates">
+      <option name="closed" value="true" />
+      <created>1726091202887</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726091202887</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/SuveyTest.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/SuveyTest.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/SuveyTest.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/SuveyTest.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/AccountTest.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="30" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Stack" memberName="size" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>

@@ -1,4 +1,4 @@
-//package Account;
+//package gateOne.Java_PROJECT.src.Account;
 //
 //import bank.Account;
 //import bank.Bank;
@@ -6,6 +6,7 @@
 //import java.util.Scanner;
 //
 //import static Account.Main.bank;
+//import static gateOne.Java_PROJECT.src.Account.Main.bank;
 //
 //public class Main {
 //    static Scanner sc = new Scanner(System.in);

@@ -1,4 +1,4 @@
-package GeoPolitical;
+package gateOne.Java_PROJECT.src.GeoPolitical;
 
 public enum EnumGeoPolitical {
 
