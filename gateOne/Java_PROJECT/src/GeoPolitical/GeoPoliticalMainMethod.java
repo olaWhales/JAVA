@@ -1,10 +1,14 @@
-//package gateOne.Java_PROJECT.src.GeoPolitical;
-//
-//
-//public class GeoPoliticalMainMethod {
-//    public static void main(String[] args) {
-//
-//        GeoPolitical.EnumGeoPolitical political = GeoPolitical.EnumGeoPolitical.NORTH_WEST;
-//        System.out.println(political);
-//    }
-//}
+package GeoPolitical;
+
+
+import java.lang.foreign.ValueLayout;
+
+import static GeoPolitical.EnumGeoPolitical.SOUTH_EAST;
+
+public class GeoPoliticalMainMethod {
+    public static void main(String[] args) {
+
+        GeoPolitical.EnumGeoPolitical political = SOUTH_EAST;
+        System.out.println(political.valueOf("SOUTH_EAST"));
+    }
+}

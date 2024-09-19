@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class ReverseNO6{
+	public static void main(String...args){
+		
+		Scanner input = new Scanner(System.in);
+
+		System.out.print("Enter number: ");
+		int user = input.newInt();
+
+		for(int count = 0 ; count <= user -1 ; count++){
+			print(count);
+
+		}
+
+	}
+}

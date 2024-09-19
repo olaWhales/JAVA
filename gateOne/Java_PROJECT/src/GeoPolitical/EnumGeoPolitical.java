@@ -1,4 +1,4 @@
-package gateOne.Java_PROJECT.src.GeoPolitical;
+package GeoPolitical;
 
 public enum EnumGeoPolitical {
 
@@ -8,16 +8,13 @@ public enum EnumGeoPolitical {
      SOUTH_EAST ("Ebonyi , Abia , Anambra , Imo , Enugu"),
      SOUTH_SOUTH ("Delta , Edo , AkwaIbom , Bayelsa , CrossRiver , Rivers"),
      SOUTH_WEST ("Lagos , Osun , Oyo , Ekiti , Ogun , Ondo");
+     private final String nigeria_zone;
 
     private String EnumGeoPolitical(String Nigeria_zone) {
         return Nigeria_zone;
     }
-    private String nigeria_zone;
 
     private EnumGeoPolitical (String Nigeria_zone) {
         this.nigeria_zone = Nigeria_zone;
     }
-    public String getNigeria_zone() {
-        return nigeria_zone;
-    }
-    }
+}

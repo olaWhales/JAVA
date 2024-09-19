@@ -1,5 +1,3 @@
-//package Arrays;
-//
 //import java.util.Arrays;
 //public class StudentPollArrays{
 //	public static <ArraysIndexOutOfBoundsException extends Throwable> void main(String...args){

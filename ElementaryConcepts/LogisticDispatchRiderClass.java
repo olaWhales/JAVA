@@ -11,5 +11,4 @@
 //		int expectedResult = LogisticFunction.deliveryInput(amount);
 //		System.out.print(expectedResult);
 //	}
-//
 //}
