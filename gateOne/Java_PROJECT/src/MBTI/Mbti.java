@@ -1,7 +1,7 @@
-package MbtiReAttempt;
+package MBTI;
 
 import java.util.Scanner;
-import java.util.Arrays;
+
 public class Mbti {
     public static <index> void main(String... args) {
         Scanner input = new Scanner(System.in);
@@ -45,18 +45,15 @@ public class Mbti {
         String[] elementSN = new String[serveQuestionSN.length];
         String[] elementTF = new String[serveQuestionTF.length];
         String[] elementJP = new String[serveQuestionJP.length];
-        String numberOfElementAPicked = "0" ;
-        String numberOfElementBPicked = "0" ;
-
-
+//        int numberOfElementAPicked = 0;
+//        int numberOfElementBPicked = 0;
+//
 
         for (int index = 0; index < serveQuestionEI.length; index++) {
             System.out.print("Pick either A or B: ");
             String selection = input.nextLine();
-
-            if (selection.equals("A") || selection.equals("a") || selection.equals("B") || selection.equals("b")) {
+            if (selection.equals("A") || selection.equals("a")){
                 elementEI[index] = selection;
-                numberOfElementAPicked += selection ;
             }
         }
         for (int index = 0; index < serveQuestionEI.length; index++) {
@@ -69,7 +66,6 @@ public class Mbti {
         for (int index = 0; index < serveQuestionEI.length; index++) {
             System.out.print("Pick either A or B: ");
             String selection = input.nextLine();
-
             if (selection.equals("A") || selection.equals("a") || selection.equals("B") || selection.equals("b")) {
                 elementTF[index] = selection;
             }
@@ -77,21 +73,23 @@ public class Mbti {
         for (int index = 0; index < serveQuestionEI.length; index++) {
             System.out.print("Pick either A or B: ");
             String selection = input.nextLine();
-
             if (selection.equals("A") || selection.equals("a") || selection.equals("B") || selection.equals("b")) {
                 elementJP[index] = selection;
             } else System.out.println("Invalid selection");
         }
 
         for (String elementExtrovertedAndIntroverted : elementEI) {
-            System.out.println("This are your choices selected for \n Extrover and Introverted: " + elementExtrovertedAndIntroverted + numberOfElementAPicked);
+            System.out.println("This are your choices selected for \n Extrover and Introverted: "+ elementExtrovertedAndIntroverted  );
         }
+        System.out.println();
         for (String sensingAndIntuitive : elementSN) {
             System.out.println("This are your choices selected for \n Sensing And Intuitive: " + sensingAndIntuitive);
         }
+        System.out.println();
         for (String thinkingAndFeeling : elementTF) {
             System.out.println("This are your choices selected for \n thinking And Feeling: " + thinkingAndFeeling);
         }
+        System.out.println();
         for (String judgingAndPerceptive : elementJP) {
             System.out.println("This are your choices selected for \n judging And Perceptive: " + judgingAndPerceptive);
         }
