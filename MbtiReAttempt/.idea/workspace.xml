@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cbf93841-8019-41a0-87d5-6ae3f8f260ff" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/MbtiReAttempt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MbtiReAttempt/MbtiReAttempt/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MbtiReAttempt/MbtiReAttempt/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MbtiReAttempt/MbtiReAttempt/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MbtiReAttempt/MbtiReAttempt/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MbtiReAttempt/MbtiReAttempt/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MbtiReAttempt/MbtiReAttempt/MbtiReAttempt.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/ClassAssessment/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/ClassAssessment/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/ClassAssessment/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/ClassAssessment/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/ClassAssessment/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/ClassAssessment/ClassAssessment.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/ClassAssessment/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/ClassAssessment/test/Account/TestAccount/AccountTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/ClassAssessment/test/Account/TestAccount/BankTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/ClassAssessment/test/testFile/testArrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/Java_PROJECT/src/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gateOne/Java_PROJECT/src/Stack/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/Java_PROJECT/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gateOne/Java_PROJECT/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/Java_PROJECT/test/AccountTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/OOP-Project/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/OOP-Project/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/OOP-Project/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/OOP-Project/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/OOP-Project/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/OOP-Project/OOP-Project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/OOP-Project/out/production/OOP-Project/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/OOP-Project/out/production/OOP-Project/oopPractice/AnotherSemicolon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/OOP-Project/out/production/OOP-Project/oopPractice/Inheritance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/OOP-Project/out/production/OOP-Project/oopPractice/MainClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/OOP-Project/out/production/OOP-Project/oopPractice/MainClassSecond.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/OOP-Project/out/production/OOP-Project/oopPractice/Semocolon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/OOP-Project/out/production/OOP-Project/oopPractice/StaticPractice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/OOP-Project/out/production/OOP-Project/oopPractice/stud.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/OOP-Project/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/OOP-Project/src/oopPractice/Aggregation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/OOP-Project/src/oopPractice/Inheritance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/OOP-Project/src/oopPractice/InterfacePractice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/OOP-Project/src/oopPractice/MainClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/OOP-Project/src/oopPractice/MainClassSecond.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/OOP-Project/src/oopPractice/StaticPractice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/OOP-Project/src/oopPractice/SuperKeywordTesting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/PetrolProject/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/PetrolProject/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/PetrolProject/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/PetrolProject/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/PetrolProject/PetrolProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/PetrolProject/out/production/PetrolProject/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/PetrolProject/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/StackProject/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/StackProject/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/StackProject/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/StackProject/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/StackProject/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/StackProject/StackProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/StackProject/out/production/StackProject/stack/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/StackProject/src/stack/Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/StackProject/test/stackTest/TestStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/bikeProject/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/bikeProject/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/bikeProject/bikeProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/bikeProject/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/bikeProjectDirectory/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/bikeProjectDirectory/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/bikeProjectDirectory/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/bikeProjectDirectory/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/bikeProjectDirectory/bikeProjectDirectory.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/bikeProjectDirectory/lib/apiguardian-api-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/bikeProjectDirectory/lib/junit-jupiter-5.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/bikeProjectDirectory/lib/junit-jupiter-api-5.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/bikeProjectDirectory/lib/junit-jupiter-engine-5.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/bikeProjectDirectory/lib/junit-jupiter-params-5.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/bikeProjectDirectory/lib/junit-platform-commons-1.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/bikeProjectDirectory/lib/junit-platform-engine-1.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/bikeProjectDirectory/lib/opentest4j-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/bikeProjectDirectory/out/production/bikeProjectDirectory/Bike.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/bikeProjectDirectory/src/Bike.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/bikeProjectDirectory/test/bikeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/gateOne.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../gateOne/gateOne.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateOne/out/production/gateOne/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/../gateOne/out/production/gateOne/module-info.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2mIFL1VY1rhd4Htw9KnXZRAVgC7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Mbti.executor": "Run",
+    "Application.MbtiReAttempt.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/DELL USER/Desktop/JAVA/MbtiReAttempt",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.22855.74" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.22855.74" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cbf93841-8019-41a0-87d5-6ae3f8f260ff" name="Changes" comment="" />
+      <created>1726756124104</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726756124104</updated>
+      <workItem from="1726756125239" duration="306000" />
+      <workItem from="1726757057125" duration="2108000" />
+      <workItem from="1726807484722" duration="475000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
