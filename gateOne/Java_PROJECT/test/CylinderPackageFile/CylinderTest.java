@@ -34,5 +34,4 @@ class CylinderTest {
         int result = cylinder.totalCalculation(8 , 6);
         Assertions.assertEquals(result, 150.0);
     }
-
 }
