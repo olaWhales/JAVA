@@ -2,7 +2,7 @@ import java.util.Arrays;
 public class ArrayRePracticing{
 public static void main(String[]args){
 
-	int number = new int[10];
+	int[] number = new int[10];
 	int sort = 0;
 	for(int index = 1; index < number.length ; index++){
 	for(int count = index ; count < number.length ; count++){
@@ -13,7 +13,8 @@ public static void main(String[]args){
 			}
 		}
 	}
-			if(result = number[index])
-			System.out.print("result");
+			for(int result : number) {
+				System.out.print("result");
+			}
 }
 }
