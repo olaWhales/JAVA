@@ -1,10 +1,9 @@
 package SavingAccountClass;
 import java.util.ArrayList;
-import java.util.Objects;
 
 public class SavingAccountClass {
-    private String name ;
-    private String pinNumber ;
+    private String name;
+    private String pinNumber;
     private int balance = 0;
     private String accountNumber = "0";
 
@@ -13,41 +12,51 @@ public class SavingAccountClass {
         this.pinNumber = pin;
         this.accountNumber = accountNumber;
     }
-    ArrayList<SavingAccountClass> accountList = new ArrayList<SavingAccountClass>();
+    public static ArrayList<SavingAccountClass> accountList = new ArrayList<SavingAccountClass>();
 
-    public SavingAccountClass createAccount(String name, String pinNumber ) {
-        String accountNumber = accountNUmberGenerator();
-        SavingAccountClass savingAccountClass = new SavingAccountClass("name" , "pin" , accountNumber);
+    public static void createAccount(String name, String pin) {
+        String accountNumber = accountNumberGenerator();
+        SavingAccountClass savingAccountClass = new SavingAccountClass("name", "pin", accountNumber);
         accountList.add(savingAccountClass);
-        return savingAccountClass;
     }
-    public Object accountSize(){
+    public int accountSize() {
         return accountList.size();
     }
-    private String accountNUmberGenerator() {
-        int totalNumberOfAcountNumber = 1;
+    public String getAccountNumber() {
+        return accountNumber;
+    }
+    private static String accountNumberGenerator() {
+        int totalNumberOfAcountNumber = accountList.size()+1 ;
         return "222333444" + totalNumberOfAcountNumber;
     }
-    private String validateAccountNumber(String accountNumber) {
+        private SavingAccountClass validateAccountNumber(String accountNumber) {
         for(SavingAccountClass savingAccountClass : accountList) {
             if(savingAccountClass.accountNumber.equals(accountNumber)) {
-                return savingAccountClass.toString();
+                return savingAccountClass;
             }
         }
         return null;
     }
-    public void deposit(String accountNumber , int amount) {
-        if (validateAccountNumber(this.accountNumber).equals(accountNumber)) {
-            balance += amount;
-        }
-        else {
+    public void deposit(String accountNumber, int amount) {
+        validateAccountNumber(accountNumber);
+        if (accountNumber.equals(accountNumber)) {
+            this.balance += amount;
+        } else {
             System.out.println("Invalid account number");
         }
     }
     public int getBalance(String pinNumber) {
-        if (this.pinNumber.equals(pinNumber) && this.accountNumber.equals(accountNumber)) {
-            return balance;
-            }
-            return 0;
+        if (pinNumber.equals(this.pinNumber)) {
+            return (int) this.balance;
         }
+        throw new RuntimeException("invalid pin");
+    }
+    public void calculateInterest(int rate){
+         double totalRate = (double) rate /100;
+         double interest = this.balance * totalRate;
+         this.balance += interest;
+         //System.out.println("Balance after interest calculation: " + (this.balance));
+
+    }
+
 }

@@ -15,7 +15,7 @@ public class Pizza{
 			""");
 	System.out.println("-----------------------------------------");
 	System.out.printf("%s%4s%4s", "PizzaType", "Number of Slide", "Price per box");
-	System.out.printf("%s%4d%4d", "Sapa size", 4, 2000,"%s%4d%4d", "Small Money", 6, 2400);
+	System.out.printf("%s%4d%d%n%s%4d%4d", "Sapa size", 4, 2000,"Small Money", 6, 2400);
 
 	int select = input.nextInt();
 
@@ -36,21 +36,20 @@ public class Pizza{
 					break;
             default:
 					System.out.print("Enter valid option");
-				}
-
-
+		}
 	}
 
-	public static String sapaSize(){
-        return "Sapa size";
+		public static String sapaSize(){
+			return "Sapa size";
+		}
+		public static String smallMoney(){
+        	return "Small Money";
+		}
+		public static String bigBoy(){
+        	return "Big boy";
+		}
+		public static String odogwu(){
+        	return "Odogwu";
 	}
-	public static String smallMoney(){
-        return "Small Money";
-	}
-	public static String bigBoy(){
-        return "Big boy";
-	}
-	public static String odogwu(){
-        return "Odogwu";
-	}
+
 }

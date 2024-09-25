@@ -1,4 +1,4 @@
-package computer;
+package Computer;
 
 public class MainComputerMethod {
     public static void main(String[] args) {

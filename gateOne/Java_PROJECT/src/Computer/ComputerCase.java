@@ -1,4 +1,4 @@
-package computer;
+package Computer;
 
 public class ComputerCase extends Product {
     private String powerSupply ;

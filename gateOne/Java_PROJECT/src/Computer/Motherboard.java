@@ -1,4 +1,4 @@
-package computer;
+package Computer;
 
 class Motherboard extends Product {
     private int ramSlot ;

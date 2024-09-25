@@ -17,7 +17,7 @@ public class loopExercise{
 		pass = pass + user;
 		System.out.println(pass);
 	if(user < qualify)
-		fail+=1
+		fail+=1 ;
 		fail = fail + user;
 		System.out.println(fail);
 }

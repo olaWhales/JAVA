@@ -1,4 +1,4 @@
-package computer;
+package Computer;
 
 class Dimension {
     private int width ;

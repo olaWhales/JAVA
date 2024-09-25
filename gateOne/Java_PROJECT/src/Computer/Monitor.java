@@ -1,4 +1,4 @@
-package computer;
+package Computer;
 
 public class Monitor extends Product {
     private int size ;

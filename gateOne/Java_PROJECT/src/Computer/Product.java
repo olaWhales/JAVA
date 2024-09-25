@@ -1,4 +1,4 @@
-package computer;
+package Computer;
 
 abstract class Product{
     private String model ;
