@@ -69,7 +69,7 @@ public class QueueTest {
         assertTrue(queue.offer());
         System.out.println(queue.offer());
     }
-//    @Test
+//    @CompositionTest
 //    public void testToCheckIfQueueIsFull(){
 //        queue.add(1);
 //        queue.add(2);
