@@ -1,6 +1,6 @@
 package BoyFriend;
 
-public class Girlfriend {
+public class Girlfriend  {
     private Boyfriend boyfriend;
 
     public Girlfriend(Boyfriend boyfriend) {
