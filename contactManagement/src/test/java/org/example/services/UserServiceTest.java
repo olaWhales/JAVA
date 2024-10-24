@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 
 
@@ -22,7 +23,8 @@ class UserServiceTest {
             request.setUserEmail("walejohn@gmail.com");
             request.setPassword("12345");
             CreateUserResponse response = userService.createUser(request);
-            assertNotNull(response);
+            assertThat(response).isNotNull();
+            assertThat(response.getMessage()).isEqualTo("Successfully created user");
 
 
         }
