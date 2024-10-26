@@ -9,28 +9,17 @@ public class DiaryRepositoryTest {
 
     @Test
     public void checkIfDiaryIsEmpty() {
-        long answer = diaryRepository.count();
+        long answer = diaryRepository.count(new Diary());
         assertEquals(0, answer);
     }
 
     @Test
     public void checkIfDiaryIsNotEmpty() {
-        long answer = diaryRepository.count();
+        long answer = diaryRepository.count(new Diary());
         assertEquals(0, answer);
         diaryRepository.save(new Diary());
         diaryRepository.save(new Diary());
-        assertEquals(diaryRepository.count(), 2);
-    }
-    @Test
-    public void testToCheckIfDiaryCanBeFindById(){
-        Diary diary = new Diary();
-        diary.setUserName("Name");
-        diary.setPassword("password");
-        diary.getEntries();
-        diaryRepository.save(diary);
-        diaryRepository.save(new Diary());
-        assertEquals(diaryRepository.count(), 2);
-
+        assertEquals(diaryRepository.count(new Diary()), 2);
     }
 
 }

@@ -25,7 +25,5 @@ class UserServiceTest {
             CreateUserResponse response = userService.createUser(request);
             assertThat(response).isNotNull();
             assertThat(response.getMessage()).isEqualTo("Successfully created user");
-
-
         }
 }

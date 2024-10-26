@@ -14,22 +14,21 @@ public class DiaryRepositorylmp implements DiaryRepository {
     }
 
     @Override
-    public List<Diary> fiindByTitle(String title) {
+    public List<Diary> findByTitle(String title) {
         return List.of();
     }
 
     @Override
     public void delete(int id) {
-
     }
 
     @Override
     public void delete(Diary diary) {
-
+        users-- ;
     }
 
     @Override
-    public long count() {
+    public long count(Diary diary) {
         return users;
     }
 

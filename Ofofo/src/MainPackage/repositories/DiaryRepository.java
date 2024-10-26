@@ -6,9 +6,9 @@ import java.util.List;
 
 public interface DiaryRepository {
     Diary save(Diary diary);
-    List<Diary> fiindByTitle(String title);
+    List<Diary> findByTitle(String title);
     void delete(int id);
     void delete(Diary diary);
-    long count();
+    long count(Diary diary);
     Diary findById(String userName);
 }
