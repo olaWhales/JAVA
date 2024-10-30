@@ -1,11 +1,11 @@
-package MainPackage.models;
+package MainPackage.data.model;
 
 import java.util.List;
 
 public class Diary {
     private String userName ;
     private String password ;
-    private boolean islocked ;
+    private boolean isLocked = true;
     private List<Entry> entries ;
 
     public String getUserName() {
@@ -24,12 +24,12 @@ public class Diary {
         this.password = password;
     }
 
-    public boolean isIslocked() {
-        return islocked;
+    public boolean isLocked() {
+        return isLocked;
     }
 
-    public void setIslocked(boolean islocked) {
-        this.islocked = islocked;
+    public void setLocked(boolean locked) {
+        isLocked = locked;
     }
 
     public List<Entry> getEntries() {
@@ -38,9 +38,5 @@ public class Diary {
 
     public void setEntries(List<Entry> entries) {
         this.entries = entries;
-    }
-
-    public void isEmpty() {
-
     }
 }

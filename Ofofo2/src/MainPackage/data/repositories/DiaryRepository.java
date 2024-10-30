@@ -1,14 +1,20 @@
-package MainPackage.repositories;
+package MainPackage.data.repositories;
 
-import MainPackage.models.Diary;
+import MainPackage.data.model.Diary;
 
 import java.util.List;
 
 public interface DiaryRepository {
     Diary save(Diary diary);
-    List<Diary> findByTitle(String title);
-    void delete(int id);
-    void delete(Diary diary);
-    long count(Diary diary);
+
     Diary findById(String userName);
+
+    List<Diary> findByTitle(String title);
+
+    void delete(Diary diary);
+
+    void delete(int id);
+
+    long count();
+
 }
