@@ -15,5 +15,11 @@ public class EntryRepositoryTest {
         assertEquals(entryRepository.numberOfEntry() , 2);
         System.out.print(entryRepository.numberOfEntry());
     }
-
+    @Test
+    public void testRemoveEntry() {
+        entryRepository.entry(1 , "ola" , "tomorrow is today").getId();
+        entryRepository.entry(2 , "ola" , "tomorrow is today").getId();
+        entryRepository.delete();
+        assertEquals(entryRepository.numberOfEntry() , 1);
+    }
 }

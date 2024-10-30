@@ -6,4 +6,6 @@ public interface EntryRepository {
     Entry entry (int id, String title, String body);
 
     short numberOfEntry();
+
+    void delete();
 }

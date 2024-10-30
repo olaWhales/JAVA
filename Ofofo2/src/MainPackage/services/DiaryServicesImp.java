@@ -30,6 +30,7 @@ public class DiaryServicesImp implements DiaryServices{
     public String login(String name, String password) {
         for(Diary diary : diaryList) {
             if(diary.getUserName().equals(name) && diary.getPassword().equals(password)) {
+                isLocked = true ;
                 return "Login Successful" ;
             }
         }
@@ -41,11 +42,11 @@ public class DiaryServicesImp implements DiaryServices{
         isLocked = true ;
         return isLocked ;
     }
-    public void isNotLocked() {
-        isLocked = false ;
+    public void UnLocked() {
+        isLocked = true ;
     }
-    public boolean isLocked() {
-         return isLocked ;
+    public void isLocked() {
+         isLocked = false ;
     }
 
 }

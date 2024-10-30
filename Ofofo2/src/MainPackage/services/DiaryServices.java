@@ -13,4 +13,6 @@ public interface DiaryServices {
     String login(String olawale, String number);
 
     Boolean isLock();
+
+    void UnLocked();
 }

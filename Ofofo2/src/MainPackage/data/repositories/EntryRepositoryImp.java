@@ -22,4 +22,9 @@ public class EntryRepositoryImp implements EntryRepository {
     public short numberOfEntry() {
         return (short) entries.size();
     }
+
+    @Override
+    public void delete() {
+        entries.remove(entries.size()-1);
+    }
 }

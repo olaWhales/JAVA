@@ -42,13 +42,18 @@ public class DiaryServiceTest {
         assertEquals(diaryServices.numberOfUser() , 1);
         String verify = diaryServices.login("Olawale", "1111");
         assertEquals("Login Successful", verify);
-//        Boolean access = diaryServices.isLock();
-//        assertTrue(access  , "Diary is locked");
+        diaryServices.isLock();
+        assertTrue(diaryServices.isLock()  , "Diary is Unlocked");
     }
 //    @Test
-//    public void testToCheckLocked() {
+//    public void testToCheckDiaryShouldNotBeUnlockAfterInputTheWrongPassword() {
+//        diaryServices.createUser("Olawale", "1111");
+//        assertEquals(diaryServices.numberOfUser() , 1);
+//        String verify = diaryServices.login("Olawale", "1112");
+//        assertEquals("Login Unsuccessful, please try again later.", verify);
 //        diaryServices.isLock();
-//        assertTrue(diaryServices.isLock() , "Diary is locked");
+//        assertTrue(diaryServices.isLock()  , "password is not correct,please try again later.");
 //    }
+
 
 }
