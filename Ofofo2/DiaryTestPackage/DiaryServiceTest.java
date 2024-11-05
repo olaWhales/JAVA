@@ -1,8 +1,5 @@
-import MainPackage.data.repositories.DiaryRepository;
-import MainPackage.data.repositories.DiaryRepositoryImp;
 import MainPackage.services.DiaryServices;
 import MainPackage.services.DiaryServicesImp;
-import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
