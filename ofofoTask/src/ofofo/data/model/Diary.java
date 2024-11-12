@@ -1,4 +1,4 @@
-package ofofo.model;
+package ofofo.data.model;
 
 import java.util.List;
 

@@ -1,23 +1,19 @@
 package ofofo.servicies;
 
-import ofofo.model.Diary;
-import ofofo.model.Entry;
+import ofofo.data.model.Diary;
+import ofofo.data.model.Entry;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import static java.util.Locale.filter;
 
 public class DiaryServicesImpl implements DiaryServicies{
     private Entry entryService ;
     private Diary diaryRepository ;
     private boolean islocked = false;
 
-    public DiaryServicesImpl() {
-        this.diaryRepository = diaryRepository ;
-        this.entryService = entryService ;
-    }
-    List<Diary> diaryList = new ArrayList<Diary>() ;
+    public DiaryServicesImpl() {}
+    List<Diary> diaryList = new ArrayList<>() ;
+    List<Entry> entries = new ArrayList<>();
 
 
     @Override
@@ -28,7 +24,6 @@ public class DiaryServicesImpl implements DiaryServicies{
         diaryList.add(diary) ;
         return diary;
     }
-
     @Override
     public String Login(String userName, String password) {
         for(int index = 0 ; index < diaryList.size() ; index++) {
@@ -39,33 +34,19 @@ public class DiaryServicesImpl implements DiaryServicies{
                 }
             }
         }
-
-//        for(Diary diary : diaryList) {
-//            if(diary.getUserName().equals(userName) && diary.getPassword().equals(password)){
-//                    return "SUCCESSFUL LOGIN";
-//            }
-//        }
         return "ERROR LOGIN";
     }
 
     @Override
-    public String Logout(String userName) {
-        return "";
-    }
-
-    @Override
-    public Diary findDiaryById(Diary diaryId) {
+    public int Delete(String DiaryId) {
         for(Diary diary : diaryList) {
-            if(diary.getUserName().equals(diaryId.getUserName())) {}
+            if(diary.getUserName().equals(DiaryId)) {
+                diaryList.remove(diary);
+                return diaryList.size();
+            }
         }
-        return null;
+        return 0;
     }
-
-    @Override
-    public Diary Delete(Diary DiaryId) {
-        return null;
-    }
-
     @Override
     public int countDiary() {
         return diaryList.size() ;
@@ -80,12 +61,35 @@ public class DiaryServicesImpl implements DiaryServicies{
     public boolean isLock() {
         return islocked;
     }
-
-
-
     @Override
     public void saved(Diary diary) {
         diaryList.add(diary) ;
+    }
+
+    @Override
+    public String findDiaryById(String diaryId) {
+        return diaryId.toString();
+    }
+
+    @Override
+    public Entry creatEntry(int id, String title, String boby, String diaryId) {
+        entryService = new Entry();
+        entryService.setId(1);
+        entryService.setTitle("life");
+        entryService.setBody("life is good");
+        entryService.setDiaryId("Olawale");
+        entries.add(entryService) ;
+        return entryService ;
+    }
+
+    @Override
+    public Entry findDiaryById(String userName, String password) {
+        for(Diary diaryCheck : diaryList) {
+            if(diaryCheck.getUserName().equals(userName) && diaryCheck.getPassword().equals(password)) {
+                return entryService;
+            }
+        }
+        return entryService ;
     }
 
     @Override
@@ -98,5 +102,17 @@ public class DiaryServicesImpl implements DiaryServicies{
         }
         return "ERROR LOGOUT";
     }
+
+    @Override
+    public Entry creatEntry(String number, String title, String s) {
+        entryService = new Entry();
+        entryService.setDiaryId("olawale");
+        entryService.setTitle("life");
+        entryService.setBody("I'm alive");
+        entryService.setId(1);
+        entries.add(entryService);
+        return entryService;
+    }
+
 
 }

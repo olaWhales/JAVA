@@ -1,4 +1,4 @@
-package ofofo.model;
+package ofofo.data.model;
 
 import java.time.LocalDateTime;
 public class Entry {
@@ -47,4 +47,5 @@ public class Entry {
     public void setDiaryId(String diaryId) {
         this.diaryId = diaryId;
     }
+
 }

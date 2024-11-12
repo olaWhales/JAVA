@@ -1,6 +1,6 @@
-package ofofo.repository;
+package ofofo.data.repository;
 
-import ofofo.model.Entry;
+import ofofo.data.model.Entry;
 
 import java.time.LocalDate;
 import java.util.List;

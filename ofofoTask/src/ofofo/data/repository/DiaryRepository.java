@@ -1,6 +1,6 @@
-package ofofo.repository;
+package ofofo.data.repository;
 
-import ofofo.model.Diary;
+import ofofo.data.model.Diary;
 
 import java.util.List;
 

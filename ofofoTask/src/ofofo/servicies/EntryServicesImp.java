@@ -1,15 +1,17 @@
 package ofofo.servicies;
 
-import ofofo.model.Diary;
-import ofofo.model.Entry;
+
+import ofofo.data.model.Entry;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class EntryServicesImp implements EntryServicies{
-    DiaryServicies diaryServicies = new DiaryServicesImpl();
     private boolean islocked = false;
+    List<Entry> entries = new ArrayList<>();
 
     @Override
     public void unLock() {
-        if(diaryServicies.isLock())
         islocked = false;
     }
     @Override
@@ -18,16 +20,20 @@ public class EntryServicesImp implements EntryServicies{
     }
     @Override
     public void isLock() {
-        if(!diaryServicies.isLock())
         islocked = true;
     }
 
     @Override
-    public void register(int id, String title, String body, String userName) {
-
-
+    public void createEntry(int id, String title, String body, String userName) {
+        Entry entry = new Entry();
+        entry.setId(10);
+        entry.setTitle("title");
+        entry.setBody("body");
+        entries.add(entry);
     }
 
-
-
+    @Override
+    public int size() {
+        return entries.size();
+    }
 }

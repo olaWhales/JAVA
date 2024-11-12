@@ -1,6 +1,6 @@
-import ofofo.model.Diary;
-import ofofo.repository.DiaryRepository;
-import ofofo.repository.DiaryRepositoryImp;
+import ofofo.data.model.Diary;
+import ofofo.data.repository.DiaryRepository;
+import ofofo.data.repository.DiaryRepositoryImp;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
