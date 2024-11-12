@@ -19,7 +19,6 @@ public class DiaryControllerTest {
     public void testToLogin() {
         DiaryServicies diaryServicies = new DiaryServicesImpl();
         diaryServicies.Register("Olawale" , "1111");
-        diaryController.Login("Olawale" , "1111");
         assertEquals(diaryController.Login("Olawale" , "1111"), "Login successful");
     }
 

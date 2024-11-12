@@ -8,21 +8,16 @@ public class DiaryControllerImp implements DiaryController{
     DiaryServicies diaryServicies = new DiaryServicesImpl();
 
     @Override
-    public String Register(String UserName, String Password) {
-        Diary diary = diaryServicies.Register(UserName, Password);
-        diary.setUserName("Olawale");
-        diary.setPassword("1111");
-        diaryServicies.saved(diary);
+    public String Register(String userName, String password) {
+        diaryServicies.Register(userName, password);
         return "Register successful";
     }
 
 
     @Override
-    public String Login(String UserName , String Password) {
-        if(diaryServicies.Register("Olawale" , "1111").equals(diaryServicies.Login("Olawale" , "1111"))){
+    public String Login(String userName , String password) {
+        diaryServicies.Login(userName, password);
             return "Login successful";
-        }
-        return "Login failed";
     }
 
 

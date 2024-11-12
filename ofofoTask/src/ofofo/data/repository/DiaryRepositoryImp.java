@@ -11,9 +11,6 @@ public class DiaryRepositoryImp implements DiaryRepository {
 
     @Override
     public Diary save(Diary diary) {
-        Diary diary1 = new Diary();
-        diary1.setUserName("olawale");
-        diary1.setPassword("1111");
         diaries.add(diary);
         count++;
         return count == 0 ? diary : null ;

@@ -62,8 +62,8 @@ public class DiaryServicesImpl implements DiaryServicies{
         return islocked;
     }
     @Override
-    public void saved(Diary diary) {
-        diaryList.add(diary) ;
+    public void saved(String diary) {
+        diaryList.add(diaryRepository) ;
     }
 
     @Override

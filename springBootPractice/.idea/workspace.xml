@@ -4,11 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c2fd1df-4a95-46ab-aa23-a37a7c273d2f" name="Changes" comment="" />
+    <list default="true" id="2c2fd1df-4a95-46ab-aa23-a37a7c273d2f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../ofofoTask/Test/DiaryControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ofofoTask/Test/DiaryControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ofofoTask/src/ofofo/controller/DiaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ofofoTask/src/ofofo/controller/DiaryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ofofoTask/src/ofofo/controller/DiaryControllerImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ofofoTask/src/ofofo/controller/DiaryControllerImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ofofoTask/src/ofofo/data/repository/DiaryRepositoryImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ofofoTask/src/ofofo/data/repository/DiaryRepositoryImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ofofoTask/src/ofofo/servicies/DiaryServicesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ofofoTask/src/ofofo/servicies/DiaryServicesImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ofofoTask/src/ofofo/servicies/DiaryServicies.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ofofoTask/src/ofofo/servicies/DiaryServicies.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -18,20 +28,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -50,6 +61,7 @@
       <updated>1728074192988</updated>
       <workItem from="1728074195032" duration="1929000" />
       <workItem from="1728236134626" duration="45000" />
+      <workItem from="1731440951402" duration="19000" />
     </task>
     <servers />
   </component>

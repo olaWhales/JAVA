@@ -15,7 +15,7 @@ public interface DiaryServicies {
     void islocked();
     boolean isLock();
     void isNotLock();
-    void saved(Diary diary);
+    void saved(String diary);
     String findDiaryById(String userName);
     Entry creatEntry(int id, String title, String body , String diaryId);
 
